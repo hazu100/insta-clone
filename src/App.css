@@ -1,0 +1,153 @@
+.App {
+  position: relative;
+  margin-top: 44px;
+}
+
+.firstLevelDetails {
+  margin-bottom: 26px;
+}
+
+.secondLevelDetails {
+  margin-bottom: 33px;
+}
+.displayDetails{
+  display: flex;
+}
+
+.userName {
+  height: 24px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1D252D;
+}
+
+.fullName {
+  height: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 11px;
+}
+
+.userInput{
+  width: 328px;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-right: 15px;
+  padding: 15px;
+}
+
+.submitBtn{
+  width: 124px;
+  height: 42px;
+  background: #0094F6;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.followBtn {
+  width: 92px;
+  height: 32px;
+  background: #0094F6;
+  border-radius: 4px;
+  margin-right: 12px;
+  margin-left: 23px;
+}
+
+.button {
+  border: none;
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.followers, .following, .postsCount {
+  height: 14px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.postsLabel {
+  height: 14px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  margin-right: 56px;
+}
+
+.followers {
+  margin-right: 56px;;
+}
+
+.biography {
+  height: 14px;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 100px;
+}
+
+.postsCount {
+  margin-right: 4px;
+}
+
+.image {
+  width: 300px;
+  height: 231px;
+  background: cadetblue;
+  margin-bottom: 14px;
+}
+ 
+.profilePicture {
+  width: 140px;
+  height: 140px;
+}
+
+.blueTick {
+  height: 22px;
+  width: 22px;
+  padding-top: 7px;
+  margin-left: 10px;
+}
+
+.icon {
+  padding-top: 3px;
+}
+
+.select {
+  margin-right: 20px;
+  background: #0094F6;
+  border-radius: 4px;
+}
+
+.MuiNativeSelect-icon {
+  right: 8px !important;
+  color: white !important;
+  
+}
+
+.MuiInputBase-input {
+  border-bottom-color: none !important;
+}
+
+.tabs {
+  margin-bottom: 56px;
+}
+
+.MuiTabs-flexContainer {
+  justify-content: center;
+}
+
+.MuiTabs-fixed{
+  border-top: 1px solid #D8D8D8;
+}
+
+.postsTab {
+  border-top: 2px solid #888888 !important;
+}
